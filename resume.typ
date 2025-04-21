@@ -64,6 +64,7 @@
 #project(
   dates: 2024,
   name: "Auction API Analyzer",
+  url: "https://github.com/attilajam/hypixel-skyblock-auction-scanner"
 )
 - Developed a Go backend that requests data from the Hypixel Skyblock API, gathering all 60000 auctions listed currently, and then calls the Coflnet API and performs a union on the two sets of data. Made use of Go routines to sort through the data quicker.
 - Created a front-end using Go templates, allowing the user to search through all of the auctions listed currently. Added filters, such as minimum price, minimum profit, allowing the user to quickly find items that were listed for too little on the auction.
